@@ -1,4 +1,6 @@
-Craig/
+Craig/**
+!Craig/**/
+!Craig/**/*Prompt.md
 .claude/
 __pycache__/
 *.pyc
