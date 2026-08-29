@@ -1,8 +1,11 @@
 # AI Transcription for Tabletop Sessions
 
-A small pipeline for turning multi-track voice recordings (e.g. the per-speaker
-FLAC/WAV files a Discord bot like [Craig](https://craig.chat/) produces) into
-a clean, speaker-labeled transcript using [WhisperX](https://github.com/m-bain/whisperX).
+A small pipeline for turning multi-track voice recordings into a clean,
+speaker-labeled transcript using [WhisperX](https://github.com/m-bain/whisperX).
+
+Designed to be used with [**Craig**](https://craig.chat/), a Discord bot that
+records voice channels and exports a separate FLAC/WAV file per speaker —
+exactly the multi-track format this pipeline expects.
 
 Built for D&D/TTRPG session recap workflows, but there's nothing D&D-specific
 in the code — it works for any recording where each speaker already has their
